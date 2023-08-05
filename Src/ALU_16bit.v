@@ -1,4 +1,4 @@
-           				                	/***  ARITHMETIC LOGIC UNIT (ALU)  ***/
+           			/***  ARITHMETIC LOGIC UNIT (ALU)  ***/
 
 module ALU_OPERATOR (            
 input [15:0] inp1, inp2,
