@@ -69,7 +69,7 @@ always @(inp1,inp2,opcode)
           else if(inp1[15] && inp2[15])
             begin
               result[31:16] = inp1_minus[14:0] / inp2_minus[14:0] ;
-              result[15:0]  = inp1_minus[14:0] % inp2_minus[14:0] ;
+              result[15:0]  = -(inp1_minus[14:0] % inp2_minus[14:0]) ;
             end
           else if(!inp1[15] && inp2[15])
             begin
